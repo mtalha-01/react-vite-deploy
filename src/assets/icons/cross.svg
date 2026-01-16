@@ -1,0 +1,13 @@
+<svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+>
+  <path
+    d="M15.2 12L19.2 16H16.1V19.1L12 14.9L7.8 19V16H4.8L8.8 12L4.8 8H7.9V4.9L12 9.1L16.1 5V8H19.2L15.2 12Z"
+    fill="currentColor"   
+    stroke="none" 
+  />
+</svg>

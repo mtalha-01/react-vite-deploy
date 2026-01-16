@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --animate-wiggle: wiggle 0.3s ease-in-out;
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+@utility animate-wiggle {
+  animation: var(--animate-wiggle);
+}
+
+@keyframes dot-clockwise-appear {
+  0%,
+  25%,
+  75%,
+  100% {
+    opacity: 0;
+  }
+  10%,
+  20% {
+    opacity: 1;
+  }
+}
+
+@utility animate-dot-clockwise {
+  animation: dot-clockwise-appear 5s linear infinite;
+}
